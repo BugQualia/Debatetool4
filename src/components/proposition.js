@@ -4,6 +4,7 @@ const Proposition = (props) => {
   const [data, setData] = React.useState(props.data);
   // 화살표는 hover시에만 보이도록
   // tfb 의미 잘 알 수 있도록
+  // 컬뮛
   const OpinionMaker = (props) => {
     const [writemode, setWritemode] = React.useState(false);
     const [option, setOption] = React.useState("g");
